@@ -1,6 +1,6 @@
 # npmtest-gulp-image
 
-#### test coverage for  [gulp-image (v2.7.6)](https://github.com/1000ch/gulp-image#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-image.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-image) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-image.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-image)
+#### basic test coverage for  [gulp-image (v2.8.0)](https://github.com/1000ch/gulp-image#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-image.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-image) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-image.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-image)
 
 #### Optimize PNG, JPG, GIF, SVG images with gulp task.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-image/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-image/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-image/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-image/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-image/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-image/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-image/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-image/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-image/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-image/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-image/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-image/build/coverage.html/index.html)
 
@@ -47,6 +47,7 @@
         "execa": "^0.6.0",
         "filesize": "^3.3.0",
         "gifsicle": "^3.0.3",
+        "guetzli": "^1.0.1",
         "gulp-util": "^3.0.7",
         "is-gif": "^1.0.0",
         "is-jpg": "^1.0.0",
@@ -67,13 +68,13 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "f5569f00a72c11775843e35322865bc9c5052086",
-        "tarball": "https://registry.npmjs.org/gulp-image/-/gulp-image-2.7.6.tgz"
+        "shasum": "1f6d7db0cc27dede161da7070effb59149bef3e0",
+        "tarball": "https://registry.npmjs.org/gulp-image/-/gulp-image-2.8.0.tgz"
     },
     "engines": {
         "node": ">=4.0.0"
     },
-    "gitHead": "c3d50f40cd33bae1c1bbc9f422fa8829f878c06f",
+    "gitHead": "12505ed8718f81cda7212b8f8cc956463fd9c0a7",
     "homepage": "https://github.com/1000ch/gulp-image#readme",
     "keywords": [
         "compress",
@@ -103,7 +104,8 @@
     "scripts": {
         "test": "ava"
     },
-    "version": "2.7.6"
+    "version": "2.8.0",
+    "bin": {}
 }
 ```
 
